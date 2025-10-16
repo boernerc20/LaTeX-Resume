@@ -171,17 +171,16 @@
     \end{threecolentry}
     \hrule
     \kern 5.0 pt%
-    Computer Engineering Master's graduate with experience in embedded systems, digital design, and electronics. Skilled in integrating FPGA and microcontroller platforms with Ethernet and serial networks for real-time data acquisition. Strong background in systems analysis, hardware/software co-design, and validation of electronics for aerospace and power systems applications.
+    Computer Engineering Master's graduate with hands-on experience in embedded systems, electronics, and networked test hardware. Skilled in designing FPGA and microcontroller-based systems integrating sensors, analog circuits, and Ethernet connectivity for real-time data acquisition, monitoring, and control. Experienced in lab environments for test and measurement applications.
 
     % SKILLS SECTION:
     \section{Skills}
     \textbf{Languages: }C/C++, Python, Bash, Verilog, MATLAB\\
-    \kern5pt
-    \textbf{Hardware: }PCB design, Circuit Analysis, Power Distribution, RF, UART/SPI/I2C debugging\\
-    \kern5pt
-    \textbf{Software: }CMake, Git, Linux, Xilinx Vivado/Vitis, STM32CubeIDE, KiCad, LTSpice, Cadence Virtuoso\\
-    \kern5pt
-    \textbf{Instumentation \& Networking: }Oscilloscope, DMM, Electronic Loads, Power Supplies, Ethernet/TCP-IP, MQTT, IPv4 stack\\
+    \kern 5.0 pt%
+    \textbf{Hardware \& Networking: }Electrical test systems, PCB design, Circuit analysis, EMI mitigation, Power management, Sensor integration, Ethernet/TCP-IP, MQTT, Embedded Linux, IPv4 protocol stack\\
+    \kern 5.0 pt%
+    \textbf{Instrumentation \& Tools: }Oscilloscope, DMM, Electronic loads, Power supplies, UART/SPI/I2C debugging, Python-based automation (PySerial), Xilinx Vivado/Vitis, STM32CubeIDE, KiCad, LTSpice, and Cadence Virtuoso
+
     
     % EDUCATION SECTION:
     \section{Education}
@@ -197,7 +196,6 @@
     \end{twocolentry}
     
     % TECHNICAL EXPERIENCE SECTION:
-    % TECHNICAL EXPERIENCE SECTION:
     \section{Technical Experience}
     
     \begin{twocolentry}{{Nov 2024 -- May 2025} \\\textit{Alexandria, Virginia}}
@@ -205,9 +203,9 @@
         \textbf{\textit{Graduate Researcher}}\\
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed an FPGA SoC implementing an Echo-State Network for real-time wireless radio channel prediction.
-                \item Developed a TCP server for Ethernet-based communication between the Linux client and Zynq SoC.
-                \item Implemented firmware modules for data buffering, fault handling, and timing verification across networked interfaces.
+                \item Designed an FPGA SoC accelerator implementing an Echo-State Network for MIMO-OFDM radio channel prediction.
+                \item Developed a TCP server for real-time Ethernet data exchange between Linux host and Zynq SoC.
+                \item Implemented RLS training and performance monitoring via UART achieving sub-1 ms inference latency.
             \end{highlights}
         \end{onecolentry}
     \end{twocolentry}
@@ -218,9 +216,9 @@
         \textbf{\textit{Research Intern}}\\
         \begin{onecolentry}
             \begin{highlights}
-                \item Designed a distributed control system integrating photovoltaic energy sources and Wi-Fi connected microcontrollers.
-                \item Programmed MQTT data exchange for power system coordination between houses and a centralized Raspberry Pi energy manager.
-                \item Analyzed real-time energy data and network communication reliability.
+                \item Designed a network of photovoltaic-powered smart home mockups for real-time energy monitoring.
+                \item Programmed Arduino and ESP8266 microcontrollers for MQTT communication and appliance control.
+                \item Built a Raspberry Pi energy manager for data collection and coordination between homes and PV source.
             \end{highlights}
         \end{onecolentry}
     \end{twocolentry}
@@ -228,12 +226,13 @@
     \kern 5.0 pt%
     \begin{twocolentry}{{Aug 2023 -- May 2024} \\\textit{Blacksburg, Virginia}}
         \textbf{NAVAIR – Aircraft Data Acquisition System | Senior Design Project}\\
-        \textbf{\textit{Project Member}}\\
+        \textbf{\textit{Team Member}}\\
         \begin{onecolentry}
             \begin{highlights}
-                \item Developed a DAQ for aircraft diagnostics using STM32 and Artemis MCUs with UART and RF
-                \item Designed PCB interfaces with power regulation, analog signal conditioning, and sensor isolation for vibration, temperature, sound, and humidity monitoring.
-                \item Collaborated with my team on system integration, power distribution, and hardware verification.
+                \item Developed a distributed DAQ system integrating vibration, temperature, humidity, and acoustic sensors.
+                \item Created custom PCBs with regulated power, Wheatstone bridges, and optocouplers for noise reduction.
+                \item Programmed STM32 and Artemis MCUs for synchronized sampling and touchscreen visualization.
+                \item Managed battery power design and validated performance under MIL-STD-810G conditions.
             \end{highlights}
         \end{onecolentry}
     \end{twocolentry}
@@ -251,51 +250,51 @@
     \end{twocolentry}
     \kern 5.0 pt%
 
-    \section{Projects}
-    
-    \begin{minipage}[t]{0.48\textwidth}
-    \textbf{\large Academic \& Course Projects}
-    
-    \vspace{4pt}
-    
-    \textbf{VLSI Design Project | 12-bit Multiplier in Cadence Virtuoso} \\
-    \textit{Nov 2023 -- Dec 2023}
-    \begin{highlights}
-        \item Designed a 12-bit Braun multiplier (schematic/layout) with carry-select adders in Cadence Virtuoso
-        \item Verified functionality through DRC/LVS/PEX checks and measured propagation delay, power, and area for ADP optimization.  
-    \end{highlights}
-    
-    \vspace{6pt}
-    
-    \textbf{Integrated Design Project | Blood Oxygen Sensor} \\
-    \textit{Jan 2022 -- May 2022}
-    \begin{highlights}
-        \item Created a multi-stage amplification and filtration circuit for photodiode sensor signals.
-        \item Multiplexed between conditioned red and infrared channels to calculate blood oxygen saturation.
-    \end{highlights}
-    \end{minipage}
-    \hfill
-    \begin{minipage}[t]{0.48\textwidth}
-    \textbf{\large Personal Projects}
-    
-    \vspace{4pt}
-    
-    \textbf{Minecraft Jukebox Replica} \\
-    \textit{Jun 2025 -- Sep 2025}
-    \begin{highlights}
-        \item Designed a proto-board for RFID sensing, power delivery, and analog audio output.
-        \item 3D-printed enclosure and RFID-tagged discs trigger sound playback via ESP32 firmware.
-    \end{highlights}
-    
-    \vspace{6pt}
-    
-    \textbf{FPV Drone Design and Build} \\
-    \textit{May 2023 -- Present}
-    \begin{highlights}
-        \item Built and tuned a 5" FPV drone with GPS telemetry, flight controller, and fail-safe power system.
-        \item Configured radio link (ELRS) and PID loops for stable, high-performance flight.
-    \end{highlights}
-    \end{minipage}
+\section{Projects}
 
-    \begin{onecolentry}
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{\large Academic \& Course Projects}
+
+\vspace{4pt}
+
+\textbf{VLSI Design Project | 12-bit Multiplier in Cadence Virtuoso} \\
+\textit{Nov 2023 -- Dec 2023}
+\begin{highlights}
+    \item Designed a 12-bit Braun multiplier (schematic/layout) with carry-select adders in Cadence Virtuoso
+    \item Verified functionality through DRC/LVS/PEX checks and measured propagation delay, power, and area for ADP optimization.  
+\end{highlights}
+
+\vspace{6pt}
+
+\textbf{Integrated Design Project | Blood Oxygen Sensor} \\
+\textit{Jan 2022 -- May 2022}
+\begin{highlights}
+    \item Created a multi-stage amplification and filtration circuit for photodiode sensor signals.
+    \item Multiplexed between conditioned red and infrared channels to calculate blood oxygen saturation.
+\end{highlights}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.48\textwidth}
+\textbf{\large Personal Projects}
+
+\vspace{4pt}
+
+\textbf{Minecraft Jukebox Replica} \\
+\textit{Jun 2025 -- Sep 2025}
+\begin{highlights}
+    \item Designed a proto-board for RFID sensing, power delivery, and analog audio output.
+    \item 3D-printed enclosure and RFID-tagged discs trigger sound playback via ESP32 firmware.
+\end{highlights}
+
+\vspace{6pt}
+
+\textbf{FPV Drone Design and Build} \\
+\textit{May 2023 -- Present}
+\begin{highlights}
+    \item Built and tuned a 5" FPV drone with GPS telemetry, flight controller, and fail-safe power system.
+    \item Configured radio link (ELRS) and PID loops for stable, high-performance flight.
+\end{highlights}
+\end{minipage}
+
+
 \end{document}
